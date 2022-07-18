@@ -10,12 +10,41 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin={0} />
-        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
       </Head>
-
-      <div>
-        <h1 className="text-green-600 font-poppins text-5xl m-12">hello</h1>
-      </div>
+      <div className="grid grid-cols-2 mx-20">
+      <div className="mt-14">
+        <h2 className="font-poppins py-2 font-bold max-w-fit text-5xl banner-gradient">Hire skilled engineers</h2>
+        <h1 className="font-poppins font-bold text-5xl text-[#1A202C]">at zero cost</h1>
+        <p className="text-xl my-12 font-light font-poppins text-[#1A202C]">Recruit the ideal candidate for your business needs with Skill-Lync, in a hassle-free way</p>
+        <button className="bg-[#0a1931] text-xl font-poppins font-semibold tracking-[0.3px] text-white px-28 my-4 py-2.5 rounded-md hover:bg-[#21CDAA] transition-colors duration-5000">Hire from us</button>
+        </div>
+        <div className="m-12">
+          <img className="rounded-lg cursor-pointer" src="/accelerateHeroImage.png" alt="meeting" />
+        </div>
+        </div>
+        <div className="flex flex-1 justify-around px-20 py-16 space-x-24 bg-[#F5F9FF] border-b-2 shadow-sm">
+          <div>
+          <h2 className="text-4xl text-[#0A1931] font-poppins font-bold">1,000+</h2>
+          <p className="text-base text-[#0A1931] font-poppins font-normal">engineers hired in
+the last year</p>
+          </div>
+          <div>
+          <h2 className="text-4xl text-[#0A1931] font-poppins font-bold">300+</h2>
+          <p className="text-base text-[#0A1931] font-poppins font-normal">companies hiring
+from us</p>
+          </div>
+          <div>
+          <h2 className="text-4xl text-[#0A1931] font-poppins font-bold">10,000+</h2>
+          <p className="text-base text-[#0A1931] font-poppins font-normal">engineers equipped
+with job-ready skills</p>
+          </div>
+          <div>
+          <h2 className="text-4xl text-[#0A1931] font-poppins font-bold">1 week</h2>
+          <p className="text-base text-[#0A1931] font-poppins font-normal">express deployment of
+engineers</p>
+          </div>
+        </div>
     </>
   )
 }
