@@ -93,7 +93,16 @@ engineers</p>
             <img src="/companies/sona.png" alt="sona" />
           </div>
         </div>
-        
+        <div className="bg-purple-900">
+        <h1 className="text-4xl text-center text-white font-poppins font-bold p-14">Here's what our corporate partners say</h1>
+        <p className="text-white">We are glad to partner with Skill-Lync for upskilling technical knowledge of our employees in key areas like vehicle development including electrification and software helping us deliver products and services to our customers, global and local.</p>
+        </div>
+
+        {/* <div className="flex h-10 w-[500px] flex-1">
+        <div className="w-[50%] bg-green-500"></div>
+        <div className="w-[20%] bg-blue-500"></div>
+        <div className="w-[30%] bg-pink-500"></div>
+      </div> */}
     </>
   )
 }
