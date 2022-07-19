@@ -7,3 +7,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.container-border {
+  border: 0.8px solid rgba(20, 108, 197, 0.25);
+}

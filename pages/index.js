@@ -93,16 +93,36 @@ engineers</p>
             <img src="/companies/sona.png" alt="sona" />
           </div>
         </div>
-        <div className="bg-purple-900">
-        <h1 className="text-4xl text-center text-white font-poppins font-bold p-14">Here's what our corporate partners say</h1>
-        <p className="text-white">We are glad to partner with Skill-Lync for upskilling technical knowledge of our employees in key areas like vehicle development including electrification and software helping us deliver products and services to our customers, global and local.</p>
+        <div className="bg-[#0A1931] pb-16">
+        <h1 className="text-4xl text-center text-white font-poppins font-bold py-14 px-48">Here's what our corporate partners say</h1>
+        <div className="flex-flex-col space-y-16">
+          <div>
+          <p className="text-white text-xl text-center font-poppins font-light py-3 px-48">We are glad to partner with Skill-Lync for upskilling technical knowledge of our employees in key areas like vehicle development including electrification and software helping us deliver products and services to our customers, global and local.</p>
+        <div className="w-96 border-t-2 border-[#0CA9A2] mx-auto"></div>
+        <p className="text-base text-white font-poppins text-center py-3"><span className="font-semibold">Debashis Neogi, Managing Director</span><span className="font-light"> @ Renault Nissan Technology & Business Centre India (RNTBCI)</span></p>
+          </div>
+          <div>
+          <p className="text-white text-xl text-center font-poppins font-light py-3 px-48">“Cyient has partnered with Skill-Lync to ensure that we continue to hire qualified professionals in embedded engineering. Bridging the skill gap at scale is critical across industry sectors, we believe this partnership will ensure that we have the required expertise in embedded engineering to deliver innovative solutions to our global customers.”</p>
+        <div className="w-96 border-t-2 border-[#0CA9A2] mx-auto"></div>
+        <p className="text-base text-white font-poppins text-center py-3"><span className="font-semibold">Rajendra Kumar Patro, SVP & Head, Global Delivery Operations</span><span className="font-light"> @ CYIENT</span></p>
+          </div>
         </div>
-
-        {/* <div className="flex h-10 w-[500px] flex-1">
-        <div className="w-[50%] bg-green-500"></div>
-        <div className="w-[20%] bg-blue-500"></div>
-        <div className="w-[30%] bg-pink-500"></div>
-      </div> */}
+        </div>
+        <div className="grid grid-cols-2 px-48 py-14">
+          <div>
+            <h1 className="font-poppins font-bold text-4xl">
+              <span>Hire engineers equipped with the industry&apos;s</span><span className="banner-gradient"> leading tools & skills</span>
+            </h1>
+          </div>
+          <div className="bg-[#EBF3FC] rounded-lg container-border">
+            <p className="px-4 py-4 text-base font-poppins font-medium">Average work experience of learners</p>
+            <div className="flex h-8 px-4 flex-1">
+              <div className="w-[50%] bg-[#0A1931] rounded-l-md"><p className="px-3 text-white text-xs font-poppins font-normal py-2">0-2 years : 75%</p></div>
+              <div className="w-[25%] bg-[#146CC5]"><p className="px-3 text-white text-xs font-poppins font-normal py-2">2-4 years : 15%</p></div>
+              <div className="w-[25%] bg-[#1BABA9] rounded-r-md"><p className="px-3 text-white text-xs font-poppins font-normal py-2">{'>'}4 years : 10%</p></div>
+            </div>
+          </div>
+        </div>
     </>
   )
 }
