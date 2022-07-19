@@ -49,6 +49,51 @@ engineers</p>
           <h1 className="mx-auto text-4xl font-poppins font-bold banner-gradient max-w-fit">Top industry players</h1>
           <h1 className="text-center text-4xl text-[#1A202C] font-poppins font-light">who have hired from Skill-lync</h1>
         </div>
+        <div className="flex flex-1 flex-wrap space-x-14 mx-20 my-20 justify-between">
+          <div className="w-28 my-auto">
+            <img src="/companies/kpit.png" alt="kpit" />
+          </div>
+          <div className="w-28 my-auto">
+            <img src="/companies/mahindraRise.png" alt="mahindraRise" />
+          </div>
+          <div className="w-28 my-auto">
+            <img src="/companies/ola.png" alt="ola" />
+          </div>
+          <div className="w-28 my-auto">
+            <img src="/companies/capgemini.png" alt="capgemini" />
+          </div>
+          <div className="w-28 my-auto">
+            <img src="/companies/expleo.png" alt="expleo" />
+          </div>
+          <div className="w-28 my-auto">
+            <img src="/companies/cyient.png" alt="cyient" />
+          </div>
+          <div className="w-28 my-auto">
+            <img src="/companies/hcl.png" alt="hcl" />
+          </div>
+          <div className="w-28 my-auto">
+            <img src="/companies/tata.jpeg" alt="tata" />
+          </div>
+          <div className="w-28 my-auto">
+            <img src="/companies/techMahindra.png" alt="techMahindra" />
+          </div>
+          <div className="w-28 my-auto">
+            <img src="/companies/renault.png" alt="renault" />
+          </div>
+          <div className="w-28 my-auto">
+            <img src="/companies/continental.png" alt="continental" />
+          </div>
+          <div className="w-28 my-auto">
+            <img src="/companies/tataelxsi.png" alt="tataelxsi" />
+          </div>
+          <div className="w-16 my-auto">
+            <img src="/companies/zf.png" alt="zf" />
+          </div>
+          <div className="w-28 my-auto">
+            <img src="/companies/sona.png" alt="sona" />
+          </div>
+        </div>
+        
     </>
   )
 }
