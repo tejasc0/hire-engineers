@@ -45,6 +45,10 @@ with job-ready skills</p>
 engineers</p>
           </div>
         </div>
+        <div className="my-20">
+          <h1 className="mx-auto text-4xl font-poppins font-bold banner-gradient max-w-fit">Top industry players</h1>
+          <h1 className="text-center text-4xl text-[#1A202C] font-poppins font-light">who have hired from Skill-lync</h1>
+        </div>
     </>
   )
 }
