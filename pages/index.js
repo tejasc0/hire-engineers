@@ -518,10 +518,10 @@ export default function Home() {
           <h1 className="font-bold text-4xl text-[#0A1931]">Request a callback</h1>
           <h3 className="font-light text-xl text-[#0A1931] my-6">Our placement expert will get in touch with you within 24 hours on business working days</h3>
         </div>
-        <div class="my-16">
+        <div className="my-16">
           <form>
-            <div class="form-group mb-6">
-              <input type="text" class="form-control
+            <div className="form-group mb-6">
+              <input type="text" className="form-control
         block
         w-full
         px-3
@@ -537,8 +537,8 @@ export default function Home() {
         m-0
         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Your Name" />
             </div>
-            <div class="form-group mb-6">
-              <input type="text" class="form-control
+            <div className="form-group mb-6">
+              <input type="text" className="form-control
         block
         w-full
         px-3
@@ -554,8 +554,8 @@ export default function Home() {
         m-0
         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Phone Number" />
             </div>
-            <div class="form-group mb-6">
-              <input type="email" class="form-control
+            <div className="form-group mb-6">
+              <input type="email" className="form-control
         block
         w-full
         px-3
@@ -571,8 +571,8 @@ export default function Home() {
         m-0
         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Email Address" />
             </div>
-            <div class="form-group mb-6">
-              <input type="text" class="form-control
+            <div className="form-group mb-6">
+              <input type="text" className="form-control
         block
         w-full
         px-3
@@ -588,8 +588,8 @@ export default function Home() {
         m-0
         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Company Name" />
             </div>
-            <div class="form-group mb-6">
-              <input type="text" class="form-control
+            <div className="form-group mb-6">
+              <input type="text" className="form-control
         block
         w-full
         px-3
@@ -605,9 +605,9 @@ export default function Home() {
         m-0
         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Designation" />
             </div>
-            <div class="form-group form-check mb-6">
+            <div className="form-group form-check mb-6">
             </div>
-            <button type="submit" class="
+            <button type="submit" className="
       px-32
       py-2.5
       bg-[#0a1832]
