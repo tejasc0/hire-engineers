@@ -8,6 +8,14 @@
   -webkit-text-fill-color: transparent;
 }
 
+.bg-gradient {
+  background: -webkit-linear-gradient(#f8fcff, #e9f1fe);
+}
+
+.bg-gradient-blue {
+  background: -webkit-linear-gradient(#091731, #001f4f);
+}
+
 .container-border {
   border: 0.8px solid rgba(20, 108, 197, 0.25);
 }
