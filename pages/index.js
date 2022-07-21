@@ -619,7 +619,7 @@ export default function Home() {
           </form>
         </div>
       </div>
-      <div className="bg-[#232323] grid grid-cols-10 px-28 space-x-10">
+      <div className="bg-[#232323] grid grid-cols-10 px-28 space-x-10 pb-20">
             <div className="col-span-5">
               <img className="my-10" src="/footer-white-logo.svg" alt="" />
                 <p className="font-normal text-base text-white">E-learning platform that equips ENGINEERS with industry-relevant skills, focussed on helping you land your dream job/admit.</p>
